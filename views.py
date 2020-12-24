@@ -132,19 +132,19 @@ print("Author: https://instagram.com/q0dri\n")
 print("Error Log:")
 
 if auto == 1:
-    driver.get("https://ketuy.com/")
+    driver.get("https://zefoy.com/")
     a = threading.Thread(target=title1)
     b = threading.Thread(target=loop1)
     a.start()
     b.start()
 elif auto == 2:
-    driver.get("https://ketuy.com/")
+    driver.get("https://zefoy.com/")
     a = threading.Thread(target=title2)
     b = threading.Thread(target=loop2)
     a.start()
     b.start()
 elif auto == 3:
-    driver.get("https://ketuy.com/")
+    driver.get("https://zefoy.com/")
     a = threading.Thread(target=title3)
     b = threading.Thread(target=loop3)
     a.start()
